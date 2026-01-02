@@ -4,8 +4,6 @@ import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
-  const [activeVideo, setActiveVideo] = useState(0);
-  const videos = ["/manyathy1.mp4", "/manyathy2.mp4"];
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden hero-gradient">
@@ -13,14 +11,13 @@ export const HeroSection = () => {
       {/* Background Videos */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video
-          key={videos[activeVideo]}
           autoPlay
           muted
+          loop
           playsInline
-          onEnded={() => setActiveVideo((prev) => (prev + 1) % videos.length)}
           className="w-full h-full object-cover scale-110"
         >
-          <source src={videos[activeVideo]} type="video/mp4" />
+          <source src="/hero-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay for better text visibility */}

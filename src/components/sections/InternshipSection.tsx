@@ -231,7 +231,10 @@ export const InternshipSection = () => {
                 {/* Disclaimer */}
                 <div className="text-center max-w-3xl mx-auto glass-card p-6 rounded-xl border-l-4 border-l-primary/50">
                     <p className="text-sm text-muted-foreground">
-                        All internships mentioned are <span className="text-foreground font-semibold">free and unpaid</span>, offered through or in collaboration with <span className="text-foreground font-semibold">Manyathy Business Solutions</span>. They may be aligned with recognized external certification programs where possible.
+                        All internships mentioned are <span className="text-orange-500 font-bold uppercase">free and unpaid</span>, offered through or in collaboration with <span className="text-foreground font-semibold">Manyathy Business Solutions</span>. They may be aligned with recognized external certification programs where possible.
+                    </p>
+                    <p className="text-xs text-muted-foreground mt-2 font-medium">
+                        <span className="text-primary font-semibold">Note:</span> Charges will be applied for Domains, servers, API calls, and other third-party services.
                     </p>
                     <p className="text-xs text-muted-foreground mt-2 opacity-70">Terms and conditions apply.</p>
                 </div>

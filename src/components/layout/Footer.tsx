@@ -30,11 +30,7 @@ export const Footer = () => {
           {/* Logo & Description */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/website-logo.png" alt="Manyathy Logo" className="h-12 w-auto" />
-              <div className="flex flex-col ml-1 leading-none">
-                <span className="text-xl font-bold text-white">MANYATHY</span>
-                <span className="text-sm font-semibold text-teal-500 tracking-widest">BUSINESS</span>
-              </div>
+              <img src="/website-logo.png" alt="Manyathy Logo" className="h-16 w-auto" />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Pioneering the future of intelligence through innovative software solutions and AI-driven excellence.
@@ -67,7 +63,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Manyathy. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+            <a href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors text-sm">
               Privacy Policy
             </a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
