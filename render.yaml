@@ -1,0 +1,5 @@
+staticSites:
+  - name: manyathy
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    pullRequestPreviewsEnabled: true
