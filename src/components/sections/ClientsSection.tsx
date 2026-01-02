@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote: "Building a quick commerce platform for rural marketing was a challenge they tackled with expertise. Krushi Gaadi is now empowering villages with seamless access to essentials.",
-    author: "Sandeep Yadiyal",
+    author: "Aryan A",
     role: "Founder",
     company: "Krushi Gaadi",
     logo: "/krushigaadi-logo.png",
@@ -36,6 +36,8 @@ const partners = [
   { name: "MongoDB", logo: "https://unpkg.com/simple-icons@v13/icons/mongodb.svg" },
   { name: "Confluent", logo: "/confluent-logo.png" },
   { name: "HashiCorp", logo: "https://unpkg.com/simple-icons@v13/icons/hashicorp.svg" },
+  { name: "Cpanel", logo: "https://unpkg.com/simple-icons@v13/icons/cpanel.svg" },
+  { name: "N8n", logo: "https://unpkg.com/simple-icons@v13/icons/n8n.svg" },
 ];
 
 export const ClientsSection = () => {
