@@ -35,6 +35,10 @@ export const Footer = () => {
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Pioneering the future of intelligence through innovative software solutions and AI-driven excellence.
             </p>
+            <div className="mt-6 text-muted-foreground text-sm space-y-1">
+              <p># 25 First Floor, Raghavendra Layout</p>
+              <p>Soppugudde, Thirthahalli - 577432</p>
+            </div>
           </div>
 
           {/* Links */}
@@ -59,9 +63,14 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-border/50 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Manyathy. All rights reserved.
-          </p>
+          <div className="text-center md:text-left">
+            <p className="text-muted-foreground text-sm">
+              © {new Date().getFullYear()} Manyathy. All rights reserved.
+            </p>
+            <p className="text-muted-foreground text-xs mt-1">
+              GST-29ABCFM6563D1Z6 , TIN-29091333179
+            </p>
+          </div>
           <div className="flex items-center gap-6">
             <a href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors text-sm">
               Privacy Policy
